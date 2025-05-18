@@ -456,3 +456,11 @@ code {
   display: grid !important;
   width: 100% !important;
 }
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --bg-auth-dark: url("/images/auth-dark.png");
+    --bg-auth-light: url("/images/auth-light.png");
+  }
+}
